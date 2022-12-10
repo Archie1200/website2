@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(to right, grey,rgb(235, 235, 101));
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.box{
+    width: 600px;
+    height: 600px;
+    margin-top: 50px;
+    margin-left: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.boxes{
+    background-color: white;
+    margin-left: 20px;
+    height: 120px;
+    width: 120px;
+}
+.boxes{
+    cursor: pointer;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
